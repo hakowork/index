@@ -8,6 +8,7 @@ const Contact: NextPage = () => {
     { title: "github", url: "https://ba-ka.org/github" },
     { title: "roblox", url: "https://www.roblox.com/groups/6503101/hakowork" },
     { title: "youtube", url: "https://www.youtube.com/channel/UCvFbESDODki3LoaeVlqNv4A" },
+    { title: "fiverr", url: "https://www.fiverr.com/hakowork" },
   ]
   return (
     <Layout title="contact">
