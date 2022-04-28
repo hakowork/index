@@ -65,8 +65,8 @@ export default function Layout({ children, home, title}: { children: React.React
                 <nav className="flex items-center justify-between flex-wrap py-4 z-10 top-0 sm:container sm:mx-auto">
                 <div className="flex items-center flex-shrink-0">
                     <Link href="/">
-                        <a className="no-underline">
-                            <span><Image className="inline h-12" src="/logo.png" alt="hakowork logo" /></span>
+                        <a className="no-underline h-12">
+                            <Image className="inline" src="/logo.png" alt="hakowork logo" width={48} height={48} />
                         </a>
                     </Link>
                 </div>
