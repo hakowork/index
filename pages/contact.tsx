@@ -15,7 +15,7 @@ const Contact: NextPage = () => {
         other than in the list are fake
         <ul className="list-disc pl-6">
             {contactList?.map((item) => (
-              <li><a target="_blank" rel="noopener noreferrer" href={item?.url}>{item?.title}</a>{item?.subtitle}</li>
+              <li key={item?.title}><a target="_blank" rel="noopener noreferrer" href={item?.url}>{item?.title}</a>{item?.subtitle}</li>
             ))}
         </ul>
       </div>
