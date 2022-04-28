@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image'
 import React from 'react';
 import BannerSecond from './banner_second';
 import Banner from './banner'
@@ -65,7 +66,7 @@ export default function Layout({ children, home, title}: { children: React.React
                 <div className="flex items-center flex-shrink-0">
                     <Link href="/">
                         <a className="no-underline">
-                            <span><img className="inline h-12" src="/logo.png" /></span>
+                            <span><Image className="inline h-12" src="/logo.png" alt="hakowork logo" /></span>
                         </a>
                     </Link>
                 </div>
