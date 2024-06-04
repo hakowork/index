@@ -56,7 +56,7 @@ const Works: NextPage = () => {
         <br/>
 
         <h1 className="font-bold text-xl">Changes to this Privacy Policy</h1>
-        <p>We may update this privacy policy from time to time. Any changes will be reflected in the app's update notes and on our official website.</p>
+        <p>We may update this privacy policy from time to time. Any changes will be reflected in the app&#39;s update notes and on our official website.</p>
 
         <br/>
 
