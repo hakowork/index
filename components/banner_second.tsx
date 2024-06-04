@@ -1,7 +1,7 @@
 const BannerSecond = ({ title }: { title?: string }) => {
     return (
       <div>
-          <div className="relative h-48 md:h-96 block bg-left-bottom bg-no-repeat bg-[url('https://cdn.discordapp.com/attachments/813998309038620682/950946353029189662/gip.png')]">
+          <div className="relative h-48 md:h-96 block bg-left-bottom bg-cover bg-center bg-no-repeat bg-[url('/background.jpg')] b">
             <div className="h-full w-full bg-gradient-to-t from-neutral-900 absolute"></div>
               <div className="h-full sm:container sm:mx-auto">
                 <div className="h-full flex items-center">

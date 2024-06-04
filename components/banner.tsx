@@ -2,7 +2,7 @@ import Button from "./button"
 
 const Header = () => {
     return (
-        <div className="h-screen bg-left-bottom bg-no-repeat bg-[url('https://cdn.discordapp.com/attachments/813998309038620682/950946353029189662/gip.png')]">
+        <div className="h-screen bg-left-bottom bg-cover bg-center bg-no-repeat bg-[url('/background.jpg')]">
             <div className="h-screen w-full bg-gradient-to-t from-neutral-900 absolute"></div>
             <div className="px-6 sm:px-0 sm:container sm:mx-auto">
                 <div className="flex items-center h-screen">

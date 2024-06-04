@@ -104,9 +104,15 @@ export default function Layout({ children, home, title}: { children: React.React
             
             <main>{children}</main>
 
-            <footer className="grid grid-cols-2 py-6 sm:container font-mont sm:mx-auto px-6 sm:px-0">
+            <footer className="grid grid-cols-3 py-6 sm:container font-mont sm:mx-auto px-6 sm:px-0">
                 <div>
                     &copy; { getYear() } hakowork
+                </div>
+                <div className="text-center">
+                    background by&nbsp;
+                    <a href="https://unsplash.com/photos/brown-tree-trunk-between-bamboo-trees-E0bj4Q53_Dw" target="_blank" rel="noopener noreferrer">
+                    weichao deng
+                    </a>
                 </div>
                 <div className="text-right">
                 powered by&nbsp;
