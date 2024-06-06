@@ -64,10 +64,8 @@ export default function Layout({ children, home, title}: { children: React.React
             <header className={`fixed w-full px-6 sm:px-0 z-50 header-section duration-200 drop-shadow ${(headerDown || headerOpen) ? "bg-neutral-900" : "pt-2 md:pt-4" }`}>
                 <nav className="flex items-center justify-between flex-wrap py-4 z-10 top-0 sm:container sm:mx-auto">
                 <div className="flex items-center flex-shrink-0">
-                    <Link href="/">
-                        <a className="no-underline h-12">
-                            <Image className="inline" src="/logo.png" alt="hakowork logo" width={48} height={48} />
-                        </a>
+                    <Link href="/" className="no-underline h-12">
+                        <Image className="inline" src="/logo.png" alt="hakowork logo" width={48} height={48} />
                     </Link>
                 </div>
 
@@ -85,10 +83,8 @@ export default function Layout({ children, home, title}: { children: React.React
                     <ul className="list-reset lg:flex justify-end flex-1 items-center">
                     {menuItems?.map((item) => (
                         <li className="group lg:mr-3 last:lg:mr-0" key={item?.title}>
-                        <Link href={item?.url}>
-                            <a className={`block uppercase font-mont lg:inline-block text-right lg:text-left no-underline py-2 px-4 pr-0 lg:pr-4 group-last:pr-0 text-gray-50`}>
+                        <Link href={item?.url} className={`block uppercase font-mont lg:inline-block text-right lg:text-left no-underline py-2 px-4 pr-0 lg:pr-4 group-last:pr-0 text-gray-50`}>
                             {item?.title}
-                            </a>
                         </Link>
                         </li>
                     ))}

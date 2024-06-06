@@ -7,9 +7,7 @@ const Contact: NextPage = () => {
     <Layout title="404 not found">
       <div className="sm:container sm:mx-auto pt-8 sm:pt-8 px-6 sm:px-0 text-center">
         <Link href="/">
-        <a>
-            go back home
-        </a>
+          go back home
         </Link>
       </div>
     </Layout>
