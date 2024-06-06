@@ -49,15 +49,13 @@ export default function Layout({ children, home, title}: { children: React.React
         { title: "work", url: "/work" },
         { title: "contact", url: "/contact" }
     ]
+
+    const headTitle = `${title ? `${title} - ` : ""}hakowork`;
     
     return (
         <div id="app" className="font-main bg-neutral-900 text-neutral-100">
             <Head>
-                {title
-                    ? <title>{title} - hakowork</title>
-                    : <title>hakowork</title>
-                }
-                
+                <title>{headTitle}</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
