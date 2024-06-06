@@ -6,7 +6,7 @@ const BannerSecond = ({ title }: { title?: string }) => {
               <div className="h-full sm:container sm:mx-auto">
                 <div className="h-full flex items-center">
                     <div className="w-full align-middle text-left z-[2]">
-                    <h1 className="font-general-semibold font-mont uppercase text-3xl md:text-3xl xl:text-4xl text-center text-gray-50">{title}</h1>
+                    <h1 className="font-general-semibold font-mont text-3xl md:text-3xl xl:text-4xl text-center text-gray-50">{title}</h1>
                     </div>
                 </div>
               </div>

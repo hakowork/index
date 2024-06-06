@@ -83,7 +83,7 @@ export default function Layout({ children, home, title}: { children: React.React
                     <ul className="list-reset lg:flex justify-end flex-1 items-center">
                     {menuItems?.map((item) => (
                         <li className="group lg:mr-3 last:lg:mr-0" key={item?.title}>
-                        <Link href={item?.url} className={`block uppercase font-mont lg:inline-block text-right lg:text-left no-underline py-2 px-4 pr-0 lg:pr-4 group-last:pr-0 text-gray-50`}>
+                        <Link href={item?.url} className={`block font-mont lg:inline-block text-right lg:text-left no-underline py-2 px-4 pr-0 lg:pr-4 group-last:pr-0 text-gray-50`}>
                             {item?.title}
                         </Link>
                         </li>
